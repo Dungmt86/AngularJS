@@ -1,0 +1,101 @@
+{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "categories": [
+      {
+        "name": "Magaret",
+        "childs": [
+          {
+            "name": "title"
+          },
+          {
+            "name": "Sent items"
+          }
+        ]
+      },
+      {
+        "name": "Laura",
+        "childs": [
+          {
+            "name": "Inbox"
+          },
+          {
+            "name": "Sent items"
+          }
+        ]
+      },
+      {
+        "name": "Robert",
+        "childs": [
+          {
+            "name": "Inbox"
+          },
+          {
+            "name": "Sent items"
+          }
+        ]
+      },
+      {
+        "name": "Albert",
+        "childs": [
+          {
+            "name": "Inbox"
+          },
+          {
+            "name": "Sent items"
+          }
+        ]
+      },
+      {
+        "name": "Michale  ",
+        "childs": [
+          {
+            "name": "Inbox"
+          }
+        ,
+          {
+            "name": "Sent items"
+          }
+        ]
+      }
+    ],
+    "mails": [
+      {
+        "subject": "Sale Representative",
+        "shortContent": "10/5/1996",
+        "userName": "7 Houndstooth Rd",
+        "category": "London",
+        "child": "(71)-555-4444"
+      },
+      {
+        "subject": "Sale Representative",
+        "shortContent": "10/5/1996",
+        "userName": "7 Houndstooth Rd",
+        "category": "London",
+        "child": "(71)-555-4444"
+      },
+      {
+        "subject": "Sale Representative",
+        "shortContent": "10/5/1996",
+        "userName": "7 Houndstooth Rd",
+        "category": "London",
+        "child": "(71)-555-4444"
+      },
+      {
+        "subject": "Sale Representative",
+        "shortContent": "10/5/1996",
+        "userName": "7 Houndstooth Rd",
+        "category": "London",
+        "child": "(71)-555-4444"
+      },
+      {
+        "subject": "Sale Representative",
+        "shortContent": "10/5/1996",
+        "userName": "7 Houndstooth Rd",
+        "category": "London",
+        "child": "(71)-555-4444"
+      }
+    ]
+  }
+}

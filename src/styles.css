@@ -29,43 +29,61 @@
 
 /*assignment2*/
 
-.khung{
-  float: left;
-  width: 250px;
-  display: block;
-  background-color: #BDB7B7FF;
-}
-.khung1{
-  width: 200px;
-  float: left;
-  display: block;
-  margin: 5px;
-  padding: 5px;
+/*.khung{*/
+/*  float: left;*/
+/*  width: 250px;*/
+/*  display: block;*/
+/*  background-color: #BDB7B7FF;*/
+/*}*/
+/*.khung1{*/
+/*  width: 200px;*/
+/*  float: left;*/
+/*  display: block;*/
+/*  margin: 5px;*/
+/*  padding: 5px;*/
+/*  border: 1px solid grey;*/
+/*  border-radius: 5px;*/
+/*  background-color: white;*/
+/*}*/
+/*li .khung{*/
+/*  list-style: none;*/
+/*}*/
+/*.khung2{*/
+/*  width: 200px;*/
+/*  float: left;*/
+/*  display: block;*/
+/*  margin: 5px;*/
+/*  padding: 5px;*/
+/*  border: 1px solid grey;*/
+/*  border-radius: 5px;*/
+/*  background-color: #d4d5d2;*/
+/*}*/
+/*.khung2 i{*/
+/*  margin: 5px;*/
+/*}*/
+/*.btn {*/
+/*  background-color: transparent;*/
+/*}*/
+/*.main{*/
+/*  background-color: #BDB7B7FF;*/
+/*  width: 1200px;*/
+/*  height: 600px;*/
+/*}*/
+
+/* practiveexam*/
+
+.tables{
   border: 1px solid grey;
-  border-radius: 5px;
-  background-color: white;
 }
-li .khung{
-  list-style: none;
-}
-.khung2{
-  width: 200px;
-  float: left;
-  display: block;
-  margin: 5px;
-  padding: 5px;
+
+.table1{
   border: 1px solid grey;
-  border-radius: 5px;
-  background-color: #d4d5d2;
 }
-.khung2 i{
-  margin: 5px;
+h3{
+  margin: 30px 20px 20px 30px;
 }
-.btn {
-  background-color: transparent;
+.picture{
+  margin-left: 150px;
 }
-.main{
-  background-color: #BDB7B7FF;
-  width: 1200px;
-  height: 600px;
-}
+
+
