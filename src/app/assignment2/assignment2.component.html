@@ -1,121 +1,56 @@
-  <div class="row">
-    <div class="col-md-3">
-     <ul><i class="glyphicon glyphicon-align-left"></i> To Do</ul>
-      <ul>
-        <li class="first">
-          <h3>Task 1</h3>
-        </li>
-        <li>Analyze the new requirement gathered from the customer</li>
-      </ul>
+<div class="main">
 
-      <ul>
-        <li class="first">
-          <h3>Task 3</h3>
-        </li>
-        <li>Arrange a web meeting with the customor...</li>
-      </ul>
+  <div class="khung">
+    <ul>
+      <li >
+        <div class="khung2" ><button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-align-left"  aria-hidden="true"></i>To Do</button></div>
+        <app-array *ngFor="let s of todo1; let i = index;"
+                   [todo1]="todo1[i]"
+                   [todo2]="todo2[i]"
+                   [todo3]="todo3[i]">
+        </app-array>
+      </li>
+    </ul>
+  </div>
+  <div class="khung">
+    <ul>
+      <li >
 
-      <ul>
-        <li class="first">
-          <h3>Task 10</h3>
-        </li>
-        <li>show the data form server</li>
-      </ul>
+        <div class="khung2" ><button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-asterisk" ></i>In Progress</button></div>
 
-    </div>
+        <app-array *ngFor="let s of proges1; let i = index;"
+                   [proges1]="proges1[i]"
+                   [proges2]="proges2[i]"
+                   [proges3]="proges3[i]">
+        </app-array>
+      </li>
+    </ul>
+  </div>
+  <div class="khung">
+    <ul>
+      <li >
 
+        <div class="khung2" ><button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-eye-open" ></i>In Review</button></div>
 
-    <div class="col-md-3">
-      <p><i class="glyphicon glyphicon-asterisk"></i> In progress</p>
-      <ul>
-        <li class="first">
-          <h3>Task 2</h3>
-        </li>
-        <li>Analyze the new requirement gathered from the customer</li>
-      </ul>
+        <app-array *ngFor="let s of reivew1; let i = index;"
+                   [review1]="reivew1[i]"
+                   [review2]="reivew2[i]"
+                   [review3]="reivew3[i]">
+        </app-array>
+      </li>
+    </ul>
+  </div>
+  <div class="khung">
+    <ul>
+      <li >
+        <div class="khung2" ><button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-ok" ></i>Done</button></div>
 
-      <ul>
-        <li class="first">
-          <h3>Task 4</h3>
-        </li>
-        <li>Arrange a web meeting with the customor...</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 11</h3>
-        </li>
-        <li>show the data form server</li>
-      </ul>
-
-    </div>
-
-
-    <div class="col-md-3">
-      <p><i class="glyphicon glyphicon-eye-open"></i> In Review</p>
-      <ul>
-        <li class="first">
-          <h3>Task 5</h3>
-        </li>
-        <li>Analyze the new requirement gathered from the customer</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 7</h3>
-        </li>
-        <li>Arrange a web meeting with the customor...</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 12</h3>
-        </li>
-        <li>show the data form server</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 19</h3>
-        </li>
-        <li>show the data form server</li>
-      </ul>
-
-    </div>
-
-
-
-    <div class="col-md-3">
-      <p><i class="glyphicon glyphicon-chevron-down"></i> Done</p>
-      <ul>
-        <li class="first">
-          <h3>Task 8</h3>
-        </li>
-        <li>Analyze the new requirement gathered from the customer</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 13</h3>
-        </li>
-        <li>Arrange a web meeting with the customor...</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 15</h3>
-        </li>
-        <li>show the data form server</li>
-      </ul>
-
-      <ul>
-        <li class="first">
-          <h3>Task 16</h3>
-        </li>
-        <li>show the data form server</li>
-      </ul>
-
-    </div>
-
-
+        <app-array *ngFor="let s of done1; let i = index;"
+                   [done1]="done1[i]"
+                   [done2]="done2[i]"
+                   [done3]="done3[i]">
+        </app-array>
+      </li>
+    </ul>
+  </div>
 </div>
